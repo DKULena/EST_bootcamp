@@ -1,0 +1,21 @@
+<!-- 조상, 부모, 자식 요소 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 강의</title> -->
+</head>
+<body>
+    <section>
+        <h1><strong></strong></h1>
+        <img src="" alt="">
+        <div>
+            <!-- div>p*3>strong> emmet -->
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+            <p><strong></strong></p>
+        </div>
+    </section>
+</body>
+</html>
