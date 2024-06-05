@@ -1,0 +1,106 @@
+<!--표 만들기 -->
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표만들기</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        caption {
+            margin-top: 20px;
+            caption-side: bottom;
+            font-weight: bold;
+            
+        }
+        table {
+            /* border:solid; */
+            border-collapse: collapse;
+        }
+        thead, colgroup {
+            background-color: whitesmoke;
+            font-weight: bold;
+        }
+
+        .category {
+            font-weight: bold;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            border: solid 2px;
+            padding: 8px;
+
+        }
+
+    </style>
+  </head>
+
+  <body>
+    <table>
+        <caption>2023 학년도 대학수능능력시험 성적통지표</caption>
+        <colgroup>
+            <col class="category" />
+        </colgroup> 
+
+    <thead>
+        <tr>
+            <th>구분</th>
+            <th rowspan="2">한국사 영역</th>
+            <th>국어 영역</th>
+            <th>수학 영역</th>
+            <th rowspan="2">영어 영역</th>
+            <th colspan="2">탐구영역</th>
+            <!-- <th>&nbsp;</th> -->
+            <th>제2외국어/한문 영역</th>
+        </tr>
+        <tr>
+            <th>과목</th>
+            <!-- <th>&nbsp;</th> -->
+            <th>화법과 작문</th>
+            <th>확률과 통계</th>
+            <!-- <th>&nbsp;</th> -->
+            <th>생활과 윤리</th>
+            <th>지구과학 1</th>
+            <th>독일어</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>표준점수</td>
+            <td rowspan="2">&nbsp;</td>
+            <td>131</td>
+            <td>137</td>
+            <td rowspan="2">&nbsp;</td>
+            <td>53</td>
+            <td>64</td>
+            <td rowspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>백분위</td>
+            <!-- <td>&nbsp;</td> -->
+            <td>93</td>
+            <td>95</td>
+            <!-- <td>&nbsp;</td> -->
+            <td>75</td>
+            <td>93</td>
+            <!-- <td>&nbsp;</td> -->
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>등급</td>
+            <td>2</td>
+            <td>2</td>
+            <td>2</td>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            <td>2</td>
+        </tr>
+    </tfoot>
+    </table>    
+
+  </body>
+</html>
