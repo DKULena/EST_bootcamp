@@ -1,0 +1,50 @@
+# 첫 예제 실습!
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img{
+            height: 20%;
+            width: 20%;
+        }
+        #name{
+            display: block;
+        }
+
+    </style>
+    <title>About Me</title>
+  </head>
+  <body>
+    <header>
+        <div>
+            <h1 id="name">이성재</h1>
+            <img src="./src/me.jpg" alt="Me in Hawaii!!!" title="Hawaii">
+        </div>
+    </header>
+    <main>
+        <div id="pros">
+            <h2>나의 강점 Top3</h2>
+            <ol type="number">
+                <li>사람을 좋아한다.</li>
+                <li>호기심이 많다.</li>
+                <li>새로운걸 좋아한다.</li>
+            </ol>
+        </div>
+        <div id="moto">
+            <h2>인생이란?</h2>
+            Carpe diem!
+        </div>
+        <div id="contact">
+            <h2>나의 SNS</h2>
+            <ul>
+                <li> <a href="https://github.com/DKULena/EST_bootcamp" target="_blank">Github</a></li>
+                <li> <a href="https://www.instagram.com/?next=%2F" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </main>
+    
+
+  </body>
+</html>
