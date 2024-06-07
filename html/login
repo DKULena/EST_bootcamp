@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <style>
+        main{
+            border-radius: 10px;
+            border: solid 1px;
+            width: 500px;
+            height: 240px;
+            margin-top: 50px;
+        }
+        h1{
+            color: black;
+        }
+        #welcome {
+            margin: auto 30px;
+            margin-bottom: 20px;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+        
+        #user-welcome {
+            text-align: right;
+            margin-right: 30px;
+        }
+        #login {
+            background-color: blueviolet;
+            border-radius: 5px;
+            margin: auto 30px;
+        }
+        button {
+            width: 440px;
+            height: 60px;
+            margin:auto 30px;
+            margin-bottom: 100px;
+            font-size: 28px;
+            font-weight: bold;
+            color: white;
+        }
+        #logo {
+            /* background-color: blanchedalmond; */
+            height: 30px;
+        }
+        .ui {
+            margin-top: 10px;
+            margin-left: 30px;
+            /* background-color: aquamarine; */
+        }
+        #icon-lock {
+            width: 20px;
+            height: 20px;
+        }
+        #id {
+            text-align: right;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>로그인</h1>
+    <main>
+        
+        <section>
+            <p id="welcome">더 편리해진 위니브에 오신 것을 환영합니다.</p>
+            <button id="login"><img src="./src/login/weniv-logo.png" id="logo" >로그인</button>
+            <div class="ui">
+                <img src="src/login/icon-lock.png" id="icon-lock">
+                <a href="#" id="user-info">아이디</a>
+                <span> | </span>
+                <a href="#" id="user-info">비밀번호 찾기</a>
+                <a href="#" id="user-welcome">회원가입</a>                
+            </div>
+        </section>
+    </main>
+
+  </body>
+</html>
